@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621015050968' stop='1621015055285'>
+    <name>dou_site.play.test.js</name>
+    <title>dou_site.play.test.js</title>
+    <test-cases>
+        <test-case start='1621015050968' status='passed' stop='1621015055259'>
+            <name>Open the main of dou site</name>
+            <title>Open the main of dou site</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

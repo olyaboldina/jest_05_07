@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621021602238' stop='1621021607171'>
+    <name>my_tests.play.test.js</name>
+    <title>my_tests.play.test.js</title>
+    <test-cases>
+        <test-case start='1621021602238' status='failed' stop='1621021607114'>
+            <name>API documentation search</name>
+            <title>API documentation search</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: page.isVisible: selector: expected string, got undefined</message>
+                <stack-trace>Error: page.isVisible: selector: expected string, got undefined
+                    at Object.&lt;anonymous>.exports.tString (/Users/olya/jest_05_07/node_modules/playwright/lib/protocol/validatorPrimitives.js:42:11)
+                    at /Users/olya/jest_05_07/node_modules/playwright/lib/protocol/validatorPrimitives.js:81:27
+                    at Proxy.&lt;anonymous> (/Users/olya/jest_05_07/node_modules/playwright/lib/client/channelOwner.js:64:99)
+                    at /Users/olya/jest_05_07/node_modules/playwright/lib/client/frame.js:356:35
+                    at Frame._wrapApiCall (/Users/olya/jest_05_07/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.isVisible (/Users/olya/jest_05_07/node_modules/playwright/lib/client/frame.js:355:21)
+                    at /Users/olya/jest_05_07/node_modules/playwright/lib/client/page.js:499:60
+                    at Page._attributeToPage (/Users/olya/jest_05_07/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.isVisible (/Users/olya/jest_05_07/node_modules/playwright/lib/client/page.js:499:21)
+                    at Object.&lt;anonymous> (/Users/olya/jest_05_07/my_tests.play.test.js:63:21)
+                    at runNextTicks (internal/process/task_queues.js:55:5)
+                    at processImmediate (internal/timers.js:412:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

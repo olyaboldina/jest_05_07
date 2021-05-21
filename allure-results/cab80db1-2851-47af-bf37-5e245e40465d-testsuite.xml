@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621194787512' stop='1621194797106'>
+    <name>my_tests.play.test.js</name>
+    <title>my_tests.play.test.js</title>
+    <test-cases>
+        <test-case start='1621194787513' status='failed' stop='1621194797052'>
+            <name>Knowledge base search, another case</name>
+            <title>Knowledge base search, another case</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Реферальная программа | База знаний Selectel"
+                Received: "Профиль и личные данные | База знаний Selectel"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "Реферальная программа | База знаний Selectel"
+                Received: "Профиль и личные данные | База знаний Selectel"
+                    at Object.&lt;anonymous> (/Users/olya/jest_05_07/my_tests.play.test.js:112:32)
+                    at runNextTicks (internal/process/task_queues.js:55:5)
+                    at processImmediate (internal/timers.js:412:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

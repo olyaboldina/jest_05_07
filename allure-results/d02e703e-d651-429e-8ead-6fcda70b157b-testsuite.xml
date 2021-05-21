@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621118246258' stop='1621118255753'>
+    <name>my_tests.play.test.js</name>
+    <title>my_tests.play.test.js</title>
+    <test-cases>
+        <test-case start='1621118246258' status='failed' stop='1621118255699'>
+            <name>Page surfing</name>
+            <title>Page surfing</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: selector.afterOrder.getAttribute is not a function</message>
+                <stack-trace>TypeError: selector.afterOrder.getAttribute is not a function
+                    at Object.&lt;anonymous> (/Users/olya/jest_05_07/my_tests.play.test.js:91:49)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+{
+  "id": "5ef8959d-318f-4a42-802a-a7a534112159",
+  "version": "2.0",
+  "name": "7.05.21",
+  "url": "https://dou.ua",
+  "tests": [{
+    "id": "c2d8fb6b-c302-4a34-a8f6-d93f2a7e06b8",
+    "name": "test",
+    "commands": [{
+      "id": "1bae48d2-ba13-4592-93a8-12d0d756f7c7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95f9880c-3e43-4bb6-9271-6cdc3dcabc65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3797ca71-8f00-4327-950f-fac36f57b4f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-head li:nth-child(6) > a",
+      "targets": [
+        ["css=.b-head li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Работа')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://jobs.dou.ua/')])[2]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdadb66a-b62c-4c01-b9d2-73ae884540fa",
+      "comment": "",
+      "command": "select",
+      "target": "name=category",
+      "targets": [],
+      "value": "label=QA"
+    }, {
+      "id": "4755a40f-486e-45cb-8413-02ff064ddab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(31)",
+      "targets": [
+        ["css=option:nth-child(31)", "css:finder"],
+        ["xpath=//option[@value='QA']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div[2]/form/select/option[31]", "xpath:idRelative"],
+        ["xpath=//option[31]", "xpath:position"],
+        ["xpath=//option[contains(.,'QA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa8d6d9-06a8-4d98-9535-46b4c55b4a89",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Senior Test Engineer Automation",
+      "targets": [],
+      "value": "Динамика"
+    }]
+  }],
+  "suites": [{
+    "id": "20a053c2-2888-447e-87c4-eee002441471",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2d8fb6b-c302-4a34-a8f6-d93f2a7e06b8"]
+  }],
+  "urls": ["https://dou.ua/"],
+  "plugins": []
+}
