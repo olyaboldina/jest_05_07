@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622302348634' stop='1622302354311'>
+    <name>homework.play.test.js</name>
+    <title>homework.play.test.js</title>
+    <test-cases>
+        <test-case start='1622302348634' status='failed' stop='1622302354223'>
+            <name>High menu novigation</name>
+            <title>High menu novigation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: page.h1 is not a function</message>
+                <stack-trace>TypeError: page.h1 is not a function
+                    at Object.&lt;anonymous> (/Users/olya/jest_05_07/homework.play.test.js:36:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622326171574' stop='1622326176554'>
+    <name>homework.play.test.js</name>
+    <title>homework.play.test.js</title>
+    <test-cases>
+        <test-case start='1622326171575' status='failed' stop='1622326176479'>
+            <name>KB integration</name>
+            <title>KB integration</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://selectel.ru/services/cloud/kubernetes/"
+                Received: "https://selectel.ru/"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://selectel.ru/services/cloud/kubernetes/"
+                Received: "https://selectel.ru/"
+                    at Object.&lt;anonymous> (/Users/olya/jest_05_07/homework.play.test.js:73:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
